@@ -1,50 +1,27 @@
-# React + TypeScript + Vite
+#Folder Explorer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+📦 Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1- Clone the Repository:
 
-## Expanding the ESLint configuration
+git clone https://github.com/SarahBehairy/Folder-Explorer.git cd Folder-Explorer
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2- Install Dependencies:
 
-- Configure the top-level `parserOptions` property like this:
+npm install
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+3- Start the Development Server:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+npm run dev
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Access the App: Open http://localhost:5173/ in your browser.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+
+
+Screenshots:
+
+<img width="534" alt="Screenshot 2024-11-30 at 8 09 37 PM" src="https://github.com/user-attachments/assets/036c6f4c-5f06-4388-ad46-4f094efff2e9">
+<img width="481" alt="Screenshot 2024-11-30 at 8 09 57 PM" src="https://github.com/user-attachments/assets/0bd5e584-010e-4957-95ed-70a2fe187cc0">
+< br / > 
+<img width="481" alt="Screenshot 2024-11-30 at 8 09 41 PM" src="https://github.com/user-attachments/assets/02c4fe1b-fcd7-4406-9e33-1aa3e07fdd6d">
